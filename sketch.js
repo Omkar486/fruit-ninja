@@ -28,7 +28,7 @@ function setup() {
   sword = createSprite(200, 200, 20, 20)
   sword.addImage(swordImg)
   sword.scale = 0.3
-  sword.debug = true
+  sword.debug = false
   var score = 0
   var x = createEdgeSprites();
   fruitGrp = createGroup();
